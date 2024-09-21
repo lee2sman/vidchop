@@ -42,7 +42,7 @@ function trim
 end
 
 function combine
-  ffmpeg -safe 0 -f concat -i $list -c copy output.mp4
+  ffmpeg -safe 0 -f concat -i $list -c copy $output
 end
 
 function usage
