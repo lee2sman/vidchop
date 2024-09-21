@@ -6,6 +6,13 @@ ffmpeg is an incredible swiss army knife of a toolkit for video editing. Unfortu
 
 This is an early prototype status. Polite bug reports may be considered.
 
+## Requirements
+
+* fish shell
+* ffmpeg
+
+## Usage
+
 ```
 usage: vidchop <option> <input-file> [<output-file>]
 
